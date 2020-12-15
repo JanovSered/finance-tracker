@@ -1,0 +1,86 @@
+.first_panel, .second_panel, .third_panel , header{
+    background-color: gray;
+    margin: auto auto 30px auto;
+    padding: 20px;
+    border : 5px solid rgb(97, 97, 97);
+    border-radius: 60px;
+    width: 800px;
+}
+
+header{
+    text-align: center;
+    font-size: 38px;
+
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.third_panel{
+    height:auto;
+    min-height: 150px;
+}
+
+.second_panel h2{
+    text-align: center;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.second_panel p{
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.third_panel > table{
+    padding-left: 25px;
+}
+
+form{
+    padding: 20px;
+}
+
+form input:nth-child(3){
+    background-color: white;
+}
+
+.main_panel{
+    margin: auto;
+    padding: 50px;
+}
+
+.third_panel th{
+    font-size: 25px;
+}
+
+td{
+    width:250px;
+    text-align:center;
+}
+
+.AdminPanel{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 960px){
+    /* For mobile phones: */
+    body{
+        margin:0;
+    }
+    .main_panel{
+        padding: 0;
+    }
+    .first_panel, .second_panel, .third_panel, header{
+        width: calc(100% - 30px);
+        padding: 0;
+        margin:10px;    
+    }
+
+    .third_panel{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+  }

@@ -1,0 +1,22 @@
+Vytvor aplikáciu na vedenie financií. Formulár bude mať aspoň 2-3 textové polia a checkbox alebo radiobutton. Po správnom vyplnení a odoslaní sa v spodnej časti do tabuľky zapíšu práve odoslané hodnoty.
+
+JS -> CEZ ARRAY
+
+
+A. Formulár
+0. id = cislo transakcie
+1. nazov transakcie -> input text
+2. kategorie -> potraviny, gaming, pet, clothing, ->  checkboxy
+3. cena -> input text   <input type="text">
+4. description -> textarea
+5. prijmanie vs posielanie penazi -> radiobuttons
+
+B. celkovy balans na ucte
+
+C. Table
+1. vsetky field z formulara okrem prijmania/odosielania penazi
+2. vyfarbovat riadky sa budu podla radiobuttonov -> zelena alebo cervena
+
+
+
+

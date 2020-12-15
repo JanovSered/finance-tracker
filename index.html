@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style1.css ">
+    
+    <title>Money Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Money Tracker</h1>
+    </header>
+    <div class="main_panel">
+        <div class="first_panel">
+            <form class="AdminPanel" action="" onsubmit="return false">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" required>
+                <br>
+                <br>
+                <label for="dorw">Withdraw or Deposit?</label><br>
+                <input type="radio" id="withdraw" name="choice" value="send to">
+                <label for="withdraw">Withdraw</label><br>
+                <input type="radio" id="deposit" name="choice" value="recieve from">
+                <label for="deposit">Deposit</label><br>
+                <br>
+                <label for="price">Price</label><br>
+                <input type="number"  name="" id="priceInput" required>
+                <br>
+                <br>
+                <label for="category">Category:</label>
+                <br>
+                <input type="checkbox" id="MLG" name="GItems" value="Gaming">
+                <label for="GItems">Gaming</label><br>
+
+                <input type="checkbox" id="food" name="GItems" value="Food">
+                <label for="food">Food</label><br>
+
+                <input type="checkbox" id="clothing" name="GItems" value="Clothing">
+                <label for="clothing">Clothing</label><br>
+                <br>
+                <input type="submit" value="Submit" onclick="DoW()">
+                <br>
+            </form>
+        </div>
+
+        <div class="second_panel" id='thedrain'>
+                    
+            <h2>Balance:</h2>
+            
+            <p id="balanceCash">0</p>
+
+        
+        </div>
+
+        <div class="third_panel">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody id='tableBody'>
+                    <tr id="pleaseremoveyourself">
+                        <td></td>
+                        <td >This table is empty</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="assets/js/js1.js"></script>
+</body>
+</html>
